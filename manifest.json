@@ -1,0 +1,47 @@
+{
+  "name": "Hard",
+  "short_name": "Hard",
+  "description": "تطبيق تدريب كالسثنكس يساعدك على الالتزام بروتين تمارينك، تعلّم الأداء الصحيح، وتتبع تقدمك — يعمل بالكامل دون اتصال بالإنترنت.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "تمرين اليوم",
+      "short_name": "اليوم",
+      "description": "الانتقال مباشرة إلى خطة تمرين اليوم",
+      "url": "./index.html?view=today"
+    },
+    {
+      "name": "مكتبة التمارين",
+      "short_name": "التمارين",
+      "description": "استعراض جميع تمارين الكالسثنكس",
+      "url": "./index.html?view=library"
+    }
+  ]
+}
